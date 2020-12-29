@@ -1,4 +1,9 @@
 It's really dependent on what you're trying to do. My rule of thumb is that if the merge "means something" I use the --no-ff option. When the merge doesn't really mean anything and you might have used a rebase there's no reason to use --no-ff
 The thing with git is that it's a very powerful tool, and you can use it in many ways - most of which are not wrong. Asking what's the "right way" to do it is like asking what's the right way to paint a picture.
+<<<<<<< HEAD
 At least for me it's an evolving set of ways I like to do it, with frequent discussions in the team of how we want to collaborate on the code - from this we try to derive a kind of "how it's done here" standard, but it's just our way of doing it.77
 Accepting this answer since it made me understand the subjective use of this option, based on our desieed workflow.77
+=======
+At least for me it's an evolving set of ways I like to do it, with frequent discussions in the team of how we want to collaborate on the code - from this we try to derive a kind of "how it's done here" standard, but it's just our way of doing it.88
+Accepting this answer since it made me understand the subjective use of this option, based on our desieed workflow.88
+>>>>>>> git_2
