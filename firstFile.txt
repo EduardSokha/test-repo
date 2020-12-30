@@ -1,5 +1,5 @@
 That really depends on your workflow, and how you are using branches.
 Let´s say you have a "master" and two feature branches, "foo" and "bar", in development.
 In this case, the branches only exist to allow different developer work without conflict, when the features are done, they need to be merged into master, and it is not important to know if those features were implemented in different branches.
-But you could have a different workflow, were the branches, "foo" and "bar", refers to independent modules in your system.
-In this case, some commits may change files outside the module scope. When you merge those two branches to the master, the log of the files, outside the specific module, may become confusing and hard to know where those changes come from.
+But you could have a different workflow, were the branches, "foo" and "bar", refers to independent modules in your system.22222
+In this case, some commits may change files outside the module scope. When you merge those two branches to the master, the log of the files, outside the specific module, may become confusing and hard to know where those changes come from.2222
